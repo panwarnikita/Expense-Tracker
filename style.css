@@ -1,0 +1,171 @@
+/* body{
+    background-image: url("https://img.lovepik.com/background/20211021/large/lovepik-blue-abstract-background-image_400111654.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+h1,h2{
+    text-align: center;
+}
+
+.input-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.input-section input{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(242, 73, 129);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;;
+}
+th{
+    background-color: rgb(246, 75, 28);
+    color:rgb(253, 253, 250)
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(198, 69, 69);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+} */
+
+body{
+    background-image: url("https://img.lovepik.com/background/20211021/large/lovepik-blue-abstract-background-image_400111654.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-section input{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(242, 73, 129);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.expenses-list{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: rgb(246, 75, 28);
+    color: rgb(253, 253, 250);
+}
+
+tfoot td{
+    font-weight: bold;
+}
+
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(198, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .input-section{
+        flex-direction: column; /* Stack the label, input, and button vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .input-section label, 
+    .input-section input, 
+    .input-section button {
+        width: 100%; /* Full width for smaller screens */
+        margin-bottom: 10px; /* Add space between elements */
+    }
+
+    table, th, td {
+        font-size: 14px; /* Slightly smaller text for smaller screens */
+    }
+
+    .delete-btn {
+        padding: 5px; /* Reduce padding for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1, h2 {
+        font-size: 20px; /* Adjust font size for very small screens */
+    }
+
+    table, th, td {
+        font-size: 12px; /* Reduce table font size for small screens */
+    }
+
+    .delete-btn {
+        font-size: 12px; /* Reduce button font size */
+    }
+}
