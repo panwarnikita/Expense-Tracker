@@ -1,7 +1,11 @@
 Expense Tracker App
+
+
 This is a simple Expense Tracker app built using HTML, CSS, JavaScript, Node.js, and MongoDB. The app allows users to add and track expenses and incomes, displaying the data in a table and calculating the total amount.
 
 Features
+
+
 Add Income or Expense with an amount, info, and date.
 View a list of all expenses and incomes.
 Calculate the total balance (income - expenses).
